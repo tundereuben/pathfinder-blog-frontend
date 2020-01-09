@@ -67,7 +67,8 @@
           },
           "configurations": {
             "production": {
-              "browserTarget": "ng-pathfinder-blog-frontend:build:production"
+              "browserTarget": "ng-pathfinder-blog-frontend:build:production",
+              "proxyConfig": "src/proxy.conf.json"
             }
           }
         },
